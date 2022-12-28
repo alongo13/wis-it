@@ -27,9 +27,9 @@ nbCode:
 
 let blockFilename = nb.blocks.pop
 
-nbText: &""" # Dizionario di Par🇮🇹le
+nbText: &""" # Dizionario di Medical Words
 
-Il dizionario di Par🇮🇹le (o Parle) è basato su dizionari disponibili pubblicamente.
+Il dizionario di Medical Words (o Parle) è basato su dizionari disponibili pubblicamente.
 
 - un dizionario "piccolo" di circa 60_000 parole (`{filenameSmallSource}`)
   preso da [napolux/paroleitaliane](https://github.com/napolux/paroleitaliane)

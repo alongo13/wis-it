@@ -1,4 +1,4 @@
-# Par🇮🇹le
+# Medical Words
 
 https://pietroppeter.github.io/wordle-it/
 

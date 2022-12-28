@@ -2,7 +2,7 @@ import nimib
 
 nbInit
 nb.darkMode
-nbText: """## Generating images for PAR🇮🇹LE
+nbText: """## Generating images for Medical Words
 
 ### Logo
 
