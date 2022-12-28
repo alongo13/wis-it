@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
-    <title>Par🇮🇹le - Un gioco di parole al giorno (Wordle in italiano)</title>
+    <title>Medical Words, Powered by WIS ( Womenin in Surgery Italia)</title>
     <!--<meta name="description" content="Guess the hidden word in 6 tries. A new puzzle is available each day.">-->
     <meta name="description" content="Indovina la parola nascosta in 6 tentativi. Un nuovo puzzle ogni giorno.">
     
     <!-- FB Meta Tags -->
     <meta property="og:url" content="https://pietroppeter.github.io/wordle-it/wordle.html">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Par🇮🇹le - Un gioco di parole al giorno (Wordle in italiano)">
+    <meta property="og:title" content="Medical Words, Powered by WIS ( Womenin in Surgery Italia)">
     <meta property="og:description" content="Indovina la parola nascosta in 6 tentativi. Un nuovo puzzle ogni giorno.">
     <meta property="og:image" content="https://pietroppeter.github.io/wordle-it/images/parle_og_1200x630.png">
 
@@ -141,7 +141,12 @@
       }
     </style>
   </head>
-  <body onload="randomAnalytics();" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.985) 0%,rgba(255,255,255,0.5) 75%),url('custom_images/wsi_index.jpeg');background-position: center;background-size: cover; linear-gradient(#eb01a5, #d13531);">
+  <body onload="randomAnalytics();">
+  <div style="background-image: url('custom_images/wis-it-header-Xsmall.jpg');background-repeat: no-repeat;background-position-x: right;">
+    <img src="custom_images/title.png" height="150px" style="display: block;margin-left: auto;margin-right: auto"/>
+    <p Style="text-align:center">Powered by Women in Surgery Italia </p>
+  </div>
+  <div onload="randomAnalytics();" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.985) 0%,rgba(255,255,255,0.5) 75%),url('custom_images/wsi_index.jpeg');background-position: center;background-size: cover; linear-gradient(#eb01a5, #d13531);">
     <script>
       (function () {
         // Defining the hash before the main bundle allows the bundle access window.hash
@@ -151,5 +156,6 @@
     </script>
     <script src="wordle-it.js"></script>
     <game-app></game-app>
+  </div>
   </body>
 </html>
